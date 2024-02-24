@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardGameTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-10-19T07:30:16" hostname="marys-air-13.lan" time="85.675">
+  <properties/>
+  <testcase name="testCardGameOriginal" classname="CardGameTest" time="40.609"/>
+  <testcase name="testCardGameValidCard" classname="CardGameTest" time="45.061">
+    <failure message="org.junit.runners.model.TestTimedOutException: test timed out after 45000 milliseconds" type="org.junit.runners.model.TestTimedOutException">org.junit.runners.model.TestTimedOutException: test timed out after 45000 milliseconds
+	at java.base@18.0.2.1/java.lang.Thread.sleep(Native Method)
+	at app//ch.aplu.jgamegrid.GameGrid.delay(GameGrid.java:1687)
+	at app//Player.Player.playTurn(Player.java:60)
+	at app//Core.CountingUpGame.playGame(CountingUpGame.java:329)
+	at app//Core.CountingUpGame.runApp(CountingUpGame.java:442)
+	at app//CardGameTest.testCardGameValidCard(CardGameTest.java:114)
+	at java.base@18.0.2.1/java.lang.invoke.LambdaForm$DMH/0x0000000800cad800.invokeVirtual(LambdaForm$DMH)
+	at java.base@18.0.2.1/java.lang.invoke.LambdaForm$MH/0x0000000800c98800.invoke(LambdaForm$MH)
+	at java.base@18.0.2.1/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@18.0.2.1/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:154)
+	at java.base@18.0.2.1/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base@18.0.2.1/java.lang.reflect.Method.invoke(Method.java:577)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base@18.0.2.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
